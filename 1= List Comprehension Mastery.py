@@ -7,5 +7,5 @@ words = ["apple", "bat", "cherry", "dog", "elderberry"]
 a=[]
 for i in words:
     if len(i) >= 4:
-        print(i.upper())
-
+        a.append(i.upper())
+print(a)

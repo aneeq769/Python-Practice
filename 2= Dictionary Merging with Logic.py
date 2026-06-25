@@ -6,8 +6,7 @@
 # Expected Output: Merged Dictionary: {'a': 10, 'b': 25, 'c': 15}
 dict_a = {'a': 10, 'b': 20} 
 dict_b = {'b': 5, 'c': 15}
-c={}
-c=dict_a
+c=dict_a.copy()
 for key,value in dict_b.items():
     if key in c:
         c[key]+=value
